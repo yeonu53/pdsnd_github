@@ -49,7 +49,7 @@ def load_data(city, month, day):
 
 def calculate_time_stats(df):
     """시간 통계 계산."""
-    print('\n가장 빈번한 여행 시간 통계를 계산 중입니다...')
+    print('\n가장 빈번한 여행 시간 통계를 계산 중...')
     start_time = time.time()
 
     common_month = df['Month'].mode()[0]
@@ -65,7 +65,7 @@ def calculate_time_stats(df):
 
 def calculate_station_stats(df):
     """역 통계 계산."""
-    print('\n가장 인기 있는 출발지와 도착지, 여행 경로 통계를 계산 중입니다...')
+    print('\n가장 인기 있는 출발지와 도착지, 여행 경로 통계를 계산 중...')
     start_time = time.time()
 
     common_start_station = df['Start Station'].mode()[0]
@@ -74,7 +74,7 @@ def calculate_station_stats(df):
 
     print(f"가장 많이 사용된 출발지: {common_start_station}")
     print(f"가장 많이 사용된 도착지: {common_end_station}")
-    print(f"가장 빈번한 여행 경로: {frequent_trip}")
+    print(f"가장 많이 사용된 여행 경로: {frequent_trip}")
 
     print(f"\n이 통계를 계산하는 데 {time.time() - start_time:.4f}초가 걸렸습니다.")
     print('-' * 40)
@@ -95,7 +95,7 @@ def calculate_trip_duration_stats(df):
 
 def calculate_user_stats(df):
     """사용자 통계 계산."""
-    print('\n사용자 통계를 계산 중입니다...')
+    print('\n사용자 통계를 계산 중...')
     start_time = time.time()
 
     print("사용자 유형별 개수:")
