@@ -36,7 +36,6 @@ def load_data(city, month, day):
     """도시 데이터 로드 및 필터링."""
     df = pd.read_csv(CITY_DATA[city])
 
-    # 날짜 변환 및 필터링
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['Month'] = df['Start Time'].dt.strftime('%B').str.lower()
     df['Day'] = df['Start Time'].dt.day_name().str.lower()
