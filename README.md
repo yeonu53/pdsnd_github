@@ -15,8 +15,8 @@
 - **washington.csv**: 워싱턴 D.C.의 자전거 공유 데이터 파일
 
 ### 참고 자료
-- [Udacity GitHub Repository](https://github.com/udacity): Udacity의 자전거 공유 데이터 분석 프로젝트 리포지토리를 참고하였다.
+- [Udacity GitHub Repository](https://github.com/udacity): Udacity의 자전거 공유 데이터 분석 프로젝트 리포지토리를 참고함.
 - Python 공식 문서: [https://docs.python.org/](https://docs.python.org/)
 - Pandas 공식 문서: [https://pandas.pydata.org/](https://pandas.pydata.org/)
-- Stack Overflow: 코드 구현 중 발생한 문제 해결을 위해 검색 및 참고하였다.
+- Stack Overflow: 코드 구현 중 발생한 문제 해결을 위해 검색 및 참고함.
 

@@ -24,7 +24,7 @@ def get_filters():
     """사용자로부터 도시, 월, 요일 입력받기."""
     print('안녕하세요! 미국 자전거 공유 데이터를 탐색해봅시다!')
 
-    city = get_user_input(f"분석할 도시를 선택하세요 {list(CITY_DATA.keys())}: ", CITY_DATA.keys())
+    city = get_user_input(f"분석을 원하는 도시를 선택하세요 {list(CITY_DATA.keys())}: ", CITY_DATA.keys())
     month = get_user_input("필터링할 월을 선택하세요 ('all', 'january' ... 'december'): ", VALID_MONTHS)
     day = get_user_input("필터링할 요일을 선택하세요 ('all', 'monday' ... 'sunday'): ", VALID_DAYS)
 
