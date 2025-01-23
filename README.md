@@ -1,4 +1,8 @@
 ## 프로젝트 정보
+<<<<<<< HEAD
+=======
+아래와 같음
+>>>>>>> documentation
 
 ### 생성일
 2025년 1월 23일
@@ -18,5 +22,8 @@
 - [Udacity GitHub Repository](https://github.com/udacity): Udacity의 자전거 공유 데이터 분석 프로젝트 리포지토리를 참고함.
 - Python 공식 문서: [https://docs.python.org/](https://docs.python.org/)
 - Pandas 공식 문서: [https://pandas.pydata.org/](https://pandas.pydata.org/)
+<<<<<<< HEAD
 - Stack Overflow: 코드 구현 중 발생한 문제 해결을 위해 검색 및 참고함.
+=======
+>>>>>>> documentation
 

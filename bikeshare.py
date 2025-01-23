@@ -14,6 +14,7 @@ VALID_DAYS = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'sa
 
 def get_user_input(prompt, valid_options):
     """사용자 입력을 받고 유효성을 검사."""
+    
     while True:
         user_input = input(prompt).lower()
         if user_input in valid_options:
@@ -22,6 +23,7 @@ def get_user_input(prompt, valid_options):
 
 def get_filters():
     """사용자로부터 도시, 월, 요일 입력받기."""
+
     print('안녕하세요! 미국 자전거 공유 데이터를 탐색해봅시다!')
 
     city = get_user_input(f"분석을 원하는 도시를 선택하세요 {list(CITY_DATA.keys())}: ", CITY_DATA.keys())
