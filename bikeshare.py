@@ -81,7 +81,7 @@ def calculate_station_stats(df):
 
 def calculate_trip_duration_stats(df):
     """여행 시간 통계 계산."""
-    print('\n여행 시간 통계를 계산 중입니다...')
+    print('\n여행 시간 통계를 계산 중...')
     start_time = time.time()
 
     total_travel_time = df['Trip Duration'].sum()
